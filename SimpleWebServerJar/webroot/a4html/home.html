@@ -1,0 +1,147 @@
+<html>
+  <head> 
+    <title> Water World - Home </title>
+  </head>
+  <body style="background-color: #cce6ff; font-family: 'Courier New',monospace;">
+    <hr>
+    <h1> <i>Welcome to Water World</i> </h1>
+    <p>
+      <b><a href="login.html">Sign up </a></b>&emsp;
+      <!-- <b><a href="login.html">Log In </a></b>&emsp; -->
+    </p>
+    <hr>
+    <h3> Our Products </h3> 
+    <style>
+      th, td {
+	border-bottom: 2px solid #99003d;
+      }
+      .cartBtn, .accntBtn, .logoutBtn {
+	border-bottom: 0px;
+      }
+      tr:hover {
+	background-color: #fff;
+      }
+      input[type=number] {
+	width: 50px;
+      }
+    </style>
+    <table class="table1">
+      <thead>
+	<tr>
+	  <th> Name </th>
+	  <th colspan="1"> Image </th>
+	  <th> Price </th>
+	  <th colspan="1"> Amount </th>
+	  <th colspan="1"></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	      <td> Distilled Water </td>
+	      <td><img src="pictures/distilled.jpg" height="100px" width="100px"></td>
+	      <td> $5.99 </td>
+	      <form action="/servlets/a4servlets/signupForm" method="post">
+		<td>
+		  <input type="number" name="quantity" placeholder="0" min="1" max="10">
+		</td>
+	        <td>
+		  <button type="submit"> Add to Cart </button>
+		  <input type="hidden" name="productIndex" value="0">
+		  <input type="hidden" name="page" value="addCart">
+		</td>
+	      </form>
+	</tr>
+	<tr>
+	     <td> Spring Water </td>
+	     <td>
+		<img src="pictures/spring.jpg" height="100px" width="100px">
+	     </td>
+	     <td> $8.99 </td>
+	     <form action="/servlets/a4servlets/signupForm" method="post">
+		<td>
+		  <input type="number" name="quantity" placeholder="0" min="0" max="10">
+		</td>
+	        <td>
+		  <button type="submit"> Add to Cart </button>
+		  <input type="hidden" name="productIndex" value="1">
+		  <input type="hidden" name="page" value="addCart">
+		</td>
+	     </form>
+	</tr>
+	<tr>
+	     <td> Pretentious Water </td>
+	     <td><img src="pictures/fancy.jpg" height="100px" width="100px"></td>
+	     <td> $39.99 </td>
+	     <form action="/servlets/a4servlets/signupForm" method="post">
+		<td>
+		  <input type="number" name="quantity" placeholder="0" min="0" max="10">
+		</td>
+	        <td>
+		  <button type="submit"> Add to Cart </button>
+		  <input type="hidden" name="productIndex" value="2">
+		  <input type="hidden" name="page" value="addCart">
+		</td>
+	     </form>
+	</tr>
+	<tr>
+	     <td> Foreign Water </td>
+	     <td>&emsp;
+		<img src="pictures/foreign.jpg" height="100px" width="50px">
+	     </td>
+	     <td> $19.99 </td>
+	     <form action="/servlets/a4servlets/signupForm" method="post">
+		<td>
+		  <input type="number" name="quantity" placeholder="0" min="0" max="10">
+		</td>
+	        <td>
+		  <button type="submit"> Add to Cart </button>
+		  <input type="hidden" name="productIndex" value="3">
+		  <input type="hidden" name="page" value="addCart">
+		</td>
+	     </form>
+	</tr>
+	<tr>
+	     <td> Bubbly Water </td>
+	     <td><img src="pictures/bubbly.jpg" height="100px" width="100px"></td>
+	     <td> $12.99 </td>
+	     <form action="/servlets/a4servlets/signupForm" method="post">
+		<td>
+		  <input type="number" name="quantity" placeholder="0" min="0" max="10">
+		</td>
+	        <td>
+		  <button type="submit"> Add to Cart </button>
+		  <input type="hidden" name="productIndex" value="4">
+		  <input type="hidden" name="page" value="addCart">
+		</td>
+	     </form>
+	</tr>
+      </tbody>
+    </table>
+    <br>
+    <table class="table2">
+      <tbody>
+	<tr>
+	  <td class="cartBtn">
+	    <form action="/servlets/a4servlets/signupForm" method="post">
+	      <button type="submit">Check Out</button>
+	      <input type="hidden" name="page" value="cart">
+	    </form>
+	  </td>
+	  <td class="accntBtn">
+	    <form action="/servlets/a4servlets/signupForm" method="post">
+	      <button type="submit">Your Account</button>
+	      <input type="hidden" name="page" value="account">
+	    </form>
+	  </td>
+	  <td class="logoutBtn">
+	    <form action="/servlets/a4servlets/signupForm" method="post">
+	      <button type="submit">Logout</button>
+	      <input type="hidden" name="page" value="logout">
+	    </form>
+	  </td>
+
+	</tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+[Wed Dec 06 15:24:48 EST 2017] /servlets/examples/: init
+[Wed Dec 06 15:24:48 EST 2017] /cgi-bin: init
+[Wed Dec 06 15:24:48 EST 2017] /servlets/examples/: init
+[Wed Dec 06 15:24:48 EST 2017] /servlets/examples/: init
+[Wed Dec 06 15:24:48 EST 2017] /servlets/a4servlets/: init
+[Wed Dec 06 15:24:48 EST 2017] /servlets/examples/: init
+[Wed Dec 06 15:24:48 EST 2017] Class not found: /servlets/a4servlets/A4Servlet exception=java.lang.ClassNotFoundException: A4Servlet
+[Wed Dec 06 15:24:48 EST 2017] /servlets/examples/: init
+[Wed Dec 06 15:24:48 EST 2017] /servlets/examples/: init
+[Wed Dec 06 15:24:48 EST 2017] /servlets/examples/: init
+[Wed Dec 06 15:24:48 EST 2017] /servlets/examples/: init
+[Wed Dec 06 15:24:48 EST 2017] /servlets/: init
+[Wed Dec 06 15:24:51 EST 2017] /161.253.77.33 GET /a4html/home.html 200
+[Wed Dec 06 15:24:51 EST 2017] /161.253.77.33 GET /a4html/pictures/distilled.jpg 200
+[Wed Dec 06 15:24:51 EST 2017] /161.253.77.33 GET /a4html/pictures/spring.jpg 200
+[Wed Dec 06 15:24:51 EST 2017] /161.253.77.33 GET /a4html/pictures/fancy.jpg 200
+[Wed Dec 06 15:24:51 EST 2017] /161.253.77.33 GET /a4html/pictures/foreign.jpg 200
+[Wed Dec 06 15:24:51 EST 2017] /161.253.77.33 GET /a4html/pictures/bubbly.jpg 200
+[Wed Dec 06 15:24:51 EST 2017] /161.253.77.33 GET /favicon.ico 404
+[Wed Dec 06 15:25:05 EST 2017] /161.253.77.33 GET /a4html/login.html 200
+[Wed Dec 06 15:25:10 EST 2017] /161.253.77.33 POST /servlets/a4servlets/signupForm 200
+[Wed Dec 06 15:25:12 EST 2017] /161.253.77.33 POST /servlets/a4servlets/signupForm 200
+[Wed Dec 06 15:25:18 EST 2017] /161.253.77.33 POST /servlets/a4servlets/signupForm 200
+[Wed Dec 06 15:25:22 EST 2017] /161.253.77.33 POST /servlets/a4servlets/signupForm 200
+[Wed Dec 06 15:25:25 EST 2017] /161.253.77.33 POST /servlets/a4servlets/signupForm 200
+[Wed Dec 06 15:25:45 EST 2017] /161.253.77.33 POST /servlets/a4servlets/signupForm 200
+[Wed Dec 06 15:25:52 EST 2017] Empty request
+[Wed Dec 06 15:25:52 EST 2017] /161.253.77.33 null null 400
+[Wed Dec 06 15:26:02 EST 2017] /161.253.77.33 POST /servlets/a4servlets/signupForm 200
+[Wed Dec 06 15:26:05 EST 2017] Empty request
+[Wed Dec 06 15:26:05 EST 2017] /161.253.77.33 null null 400
+[Wed Dec 06 15:26:08 EST 2017] Accept: java.net.SocketException: Socket closed
+[Wed Dec 06 15:26:08 EST 2017] /cgi-bin: destroy
